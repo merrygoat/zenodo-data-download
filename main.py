@@ -9,7 +9,7 @@ import yaml
 
 
 def main():
-    data_locations = read_data_yaml("zenodo_URLs.yaml")["tensile_tests"]
+    data_locations = read_data_yaml("zenodo_urls.yaml")["tensile_tests"]
 
     data_folder = Path('data')
 
